@@ -1,0 +1,31 @@
+.box{
+    width:400px;
+    height:400px;
+    background-color: aquamarine;
+    border:3px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    transition: all 3s linear 1s;
+    
+}
+
+.container{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box:hover{
+    transform: rotate(360deg);
+    transform: scale(2);
+    transform: skew(45deg);
+    transform: translate(500px);
+}
+
+p{
+    font-size: 36px; 
+}

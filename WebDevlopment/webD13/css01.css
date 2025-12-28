@@ -1,0 +1,11 @@
+h1  {
+     text-align:left;
+}
+#article1{
+    background-color: blanchedalmond;
+}
+p, article{
+    text-align: center;
+    text-align:justify;
+    width: 1000px;
+}
